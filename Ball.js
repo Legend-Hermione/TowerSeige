@@ -1,6 +1,7 @@
 class Ball extends BaseClass {
   constructor(x,y){
-    super(x,y,50,50);
+    super(x,y,80,50);
+    this.image=loadImage("poly.png");
   }
 
   display() {
